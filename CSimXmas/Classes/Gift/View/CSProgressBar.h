@@ -1,5 +1,5 @@
 //
-//  CSGiftCell.h
+//  CSProgressBar.h
 //  CSimXmas
 //
 //  Created by Alice Jin on 18/12/2017.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CSGiftCell : UIView
+@interface CSProgressBar : UIView
+
+@property (strong, nonatomic) NSString *step;
 
 @end

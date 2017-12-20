@@ -9,6 +9,8 @@
 #import "CSGiftHoldViewController.h"
 #import "CSCompleteViewController.h"
 
+#import "CSProgressBar.h"
+
 @interface CSGiftHoldViewController () <UIScrollViewDelegate>
 
 @property (strong, nonatomic) UIScrollView *scrollerView;
@@ -53,6 +55,7 @@
 - (void)setUpInit
 {
     self.view.backgroundColor = [UIColor whiteColor];
+    self.view.frame = ScreenBounds;
     self.scrollerView.backgroundColor = self.view.backgroundColor;
     self.scrollerView.contentSize = CGSizeMake(ScreenW, ScreenH + 100);
     
@@ -76,6 +79,19 @@
     [_holdGiftButton setTitle:@"Hold Gift" forState:UIControlStateNormal];
     [_holdGiftButton addTarget:self action:@selector(holdGiftButtonClicked) forControlEvents:UIControlEventTouchUpInside];
     [self.scrollerView addSubview:_holdGiftButton];
+    
+    CSProgressBar *prgressBar = [[CSProgressBar alloc] init];
+    [self.view addSubview:prgressBar];
+    prgressBar.backgroundColor = [UIColor redColor];
+    prgressBar.step = @"1";
+    
+    [prgressBar mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.mas_equalTo(self.view.mas_bottom).with.offset(-40);
+        make.centerX.mas_equalTo(self.view.mas_centerX);
+        make.width.mas_equalTo(ScreenW - CSMargin * 2);
+        make.height.mas_equalTo(50);
+    }];
+    
     
 }
 

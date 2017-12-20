@@ -8,6 +8,8 @@
 
 #import "CSFinalCompleteViewController.h"
 
+#import "CSProgressBar.h"
+
 @interface CSFinalCompleteViewController ()
 
 @end
@@ -50,7 +52,7 @@
     CGSize textMaxSize = CGSizeMake(ScreenW - CSMargin * 2, MAXFLOAT);
     CGSize textSize = [self.completeText boundingRectWithSize:textMaxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:15]} context:nil].size;
     [detailLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(bigLabel.mas_bottom).with.offset(40);
+        make.top.mas_equalTo(bigLabel.mas_bottom).with.offset(30);
         make.left.equalTo(self.view.mas_left).with.offset(CSMargin);
         make.right.equalTo(self.view.mas_right).with.offset(-CSMargin);
         //make.centerX.mas_equalTo(self.view.mas_centerX);
@@ -60,9 +62,27 @@
     
     UIButton *sendFriendButton = [[UIButton alloc] init];
     [self.view addSubview:sendFriendButton];
+    [sendFriendButton setBackgroundImage:[UIImage imageNamed:@"colorful_background.jpg"] forState:UIControlStateNormal];
+    sendFriendButton.imageView.contentMode = UIViewContentModeScaleAspectFill;
+    sendFriendButton.clipsToBounds = YES;
+    [sendFriendButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [sendFriendButton setTitle:@"Send to a friend!" forState:UIControlStateNormal];
     [sendFriendButton mas_makeConstraints:^(MASConstraintMaker *make) {
-        n
+        make.top.mas_equalTo(detailLabel.mas_bottom).with.offset(40);
+        make.centerX.mas_equalTo(self.view.mas_centerX);
+        make.width.mas_equalTo(detailLabel.mas_width);
+        make.height.mas_equalTo(50);
+    }];
+    
+    CSProgressBar *prgressBar = [[CSProgressBar alloc] init];
+    [self.view addSubview:prgressBar];
+    prgressBar.step = @"3";
+    
+    [prgressBar mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.mas_equalTo(self.view.mas_bottom).with.offset(-40);
+        make.centerX.mas_equalTo(self.view.mas_centerX);
+        make.width.mas_equalTo(sendFriendButton.mas_width);
+        make.height.mas_equalTo(50);
     }];
 
 }

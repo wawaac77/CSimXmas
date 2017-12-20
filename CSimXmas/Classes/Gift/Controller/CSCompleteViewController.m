@@ -12,6 +12,8 @@
 #import "CSNotificationTableViewController.h"
 #import "CSTermsConditionsViewController.h"
 
+#import "CSProgressBar.h"
+
 @interface CSCompleteViewController ()
 
 @end
@@ -31,6 +33,20 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
    
+}
+
+- (void)setUpBase {
+    CSProgressBar *prgressBar = [[CSProgressBar alloc] init];
+    [self.view addSubview:prgressBar];
+    prgressBar.backgroundColor = [UIColor redColor];
+    prgressBar.step = @"2";
+    
+    [prgressBar mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.mas_equalTo(self.view.mas_bottom).with.offset(-40);
+        make.centerX.mas_equalTo(self.view.mas_centerX);
+        make.width.mas_equalTo(ScreenW - CSMargin * 2);
+        make.height.mas_equalTo(50);
+    }];
 }
 
 - (IBAction)RedeemButtonClicked:(id)sender

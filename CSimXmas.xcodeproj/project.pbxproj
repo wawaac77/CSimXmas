@@ -24,8 +24,8 @@
 		782B15A11FE7C53F00F916A4 /* HaagenDazs.png in Resources */ = {isa = PBXBuildFile; fileRef = 782B15A01FE7C53F00F916A4 /* HaagenDazs.png */; };
 		782B15A31FE7C54800F916A4 /* iCremeria.png in Resources */ = {isa = PBXBuildFile; fileRef = 782B15A21FE7C54800F916A4 /* iCremeria.png */; };
 		782B15A51FE7C54C00F916A4 /* Limited-christmas.png in Resources */ = {isa = PBXBuildFile; fileRef = 782B15A41FE7C54C00F916A4 /* Limited-christmas.png */; };
-		782B15B01FE7C9C100F916A4 /* CSGiftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15AF1FE7C9C100F916A4 /* CSGiftCell.m */; };
-		782B15B21FE7CA7700F916A4 /* CSGiftCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 782B15B11FE7CA7700F916A4 /* CSGiftCell.xib */; };
+		782B15B01FE7C9C100F916A4 /* CSProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15AF1FE7C9C100F916A4 /* CSProgressBar.m */; };
+		782B15B21FE7CA7700F916A4 /* CSProgressBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 782B15B11FE7CA7700F916A4 /* CSProgressBar.xib */; };
 		782B15B51FE7CE0300F916A4 /* CSGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15B41FE7CE0300F916A4 /* CSGiftModel.m */; };
 		782B15B81FE7CE4800F916A4 /* CSCompleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15B71FE7CE4800F916A4 /* CSCompleteViewController.m */; };
 		782B15BC1FE89CAE00F916A4 /* CSGiftSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15BA1FE89CAE00F916A4 /* CSGiftSelectViewController.m */; };
@@ -57,6 +57,10 @@
 		7851529B1FEA432D0015DA91 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 785152961FEA432D0015DA91 /* EGOCache.m */; };
 		7851529C1FEA432D0015DA91 /* NetworkUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 785152981FEA432D0015DA91 /* NetworkUnit.m */; };
 		7851529E1FEA44FE0015DA91 /* cs_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7851529D1FEA44FD0015DA91 /* cs_logo.png */; };
+		785152A01FEA5BA70015DA91 /* button_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7851529F1FEA5BA70015DA91 /* button_background.png */; };
+		785152A21FEA5EEF0015DA91 /* colorful_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 785152A11FEA5EEF0015DA91 /* colorful_background.jpg */; };
+		785152A41FEA652F0015DA91 /* Button-Blank-Gray-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 785152A31FEA652F0015DA91 /* Button-Blank-Gray-icon.png */; };
+		785152A61FEA65340015DA91 /* Button-Blank-Yellow-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 785152A51FEA65340015DA91 /* Button-Blank-Yellow-icon.png */; };
 		825E4157E929CFFE03E0771A /* libPods-CSimXmas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7349BA728310FF9AD15C8CD /* libPods-CSimXmas.a */; };
 		845D619BAF16550E0CA3CD41 /* libPods-CSimXmasTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F10FD4668B244D42031A7416 /* libPods-CSimXmasTests.a */; };
 /* End PBXBuildFile section */
@@ -108,9 +112,9 @@
 		782B15A01FE7C53F00F916A4 /* HaagenDazs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HaagenDazs.png; sourceTree = "<group>"; };
 		782B15A21FE7C54800F916A4 /* iCremeria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iCremeria.png; sourceTree = "<group>"; };
 		782B15A41FE7C54C00F916A4 /* Limited-christmas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Limited-christmas.png"; sourceTree = "<group>"; };
-		782B15AE1FE7C9C100F916A4 /* CSGiftCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSGiftCell.h; sourceTree = "<group>"; };
-		782B15AF1FE7C9C100F916A4 /* CSGiftCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSGiftCell.m; sourceTree = "<group>"; };
-		782B15B11FE7CA7700F916A4 /* CSGiftCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSGiftCell.xib; sourceTree = "<group>"; };
+		782B15AE1FE7C9C100F916A4 /* CSProgressBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSProgressBar.h; sourceTree = "<group>"; };
+		782B15AF1FE7C9C100F916A4 /* CSProgressBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSProgressBar.m; sourceTree = "<group>"; };
+		782B15B11FE7CA7700F916A4 /* CSProgressBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSProgressBar.xib; sourceTree = "<group>"; };
 		782B15B31FE7CE0300F916A4 /* CSGiftModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSGiftModel.h; sourceTree = "<group>"; };
 		782B15B41FE7CE0300F916A4 /* CSGiftModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSGiftModel.m; sourceTree = "<group>"; };
 		782B15B61FE7CE4800F916A4 /* CSCompleteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSCompleteViewController.h; sourceTree = "<group>"; };
@@ -163,6 +167,10 @@
 		785152971FEA432D0015DA91 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		785152981FEA432D0015DA91 /* NetworkUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkUnit.m; sourceTree = "<group>"; };
 		7851529D1FEA44FD0015DA91 /* cs_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cs_logo.png; sourceTree = "<group>"; };
+		7851529F1FEA5BA70015DA91 /* button_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_background.png; sourceTree = "<group>"; };
+		785152A11FEA5EEF0015DA91 /* colorful_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colorful_background.jpg; sourceTree = "<group>"; };
+		785152A31FEA652F0015DA91 /* Button-Blank-Gray-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Blank-Gray-icon.png"; sourceTree = "<group>"; };
+		785152A51FEA65340015DA91 /* Button-Blank-Yellow-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Blank-Yellow-icon.png"; sourceTree = "<group>"; };
 		ADDCE7C0CE1F7C39E5428735 /* Pods-CSimXmas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSimXmas.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSimXmas/Pods-CSimXmas.release.xcconfig"; sourceTree = "<group>"; };
 		CDF1BA16F1C671CF044138D1 /* Pods-CSimXmasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSimXmasUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSimXmasUITests/Pods-CSimXmasUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D7349BA728310FF9AD15C8CD /* libPods-CSimXmas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CSimXmas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -298,6 +306,10 @@
 		782B15991FE7C17D00F916A4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				785152A31FEA652F0015DA91 /* Button-Blank-Gray-icon.png */,
+				785152A51FEA65340015DA91 /* Button-Blank-Yellow-icon.png */,
+				785152A11FEA5EEF0015DA91 /* colorful_background.jpg */,
+				7851529F1FEA5BA70015DA91 /* button_background.png */,
 				7851529D1FEA44FD0015DA91 /* cs_logo.png */,
 				7851528E1FEA40650015DA91 /* christmas_background.jpg */,
 				782B15DF1FE9002300F916A4 /* frame_cute.png */,
@@ -315,9 +327,9 @@
 		782B15AB1FE7C92F00F916A4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				782B15AE1FE7C9C100F916A4 /* CSGiftCell.h */,
-				782B15AF1FE7C9C100F916A4 /* CSGiftCell.m */,
-				782B15B11FE7CA7700F916A4 /* CSGiftCell.xib */,
+				782B15AE1FE7C9C100F916A4 /* CSProgressBar.h */,
+				782B15AF1FE7C9C100F916A4 /* CSProgressBar.m */,
+				782B15B11FE7CA7700F916A4 /* CSProgressBar.xib */,
 				782B15CB1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.h */,
 				782B15CC1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.m */,
 				782B15CD1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.xib */,
@@ -588,8 +600,10 @@
 				782B159F1FE7C53A00F916A4 /* hmv.png in Resources */,
 				782B15A31FE7C54800F916A4 /* iCremeria.png in Resources */,
 				782B15BD1FE89CAE00F916A4 /* CSGiftSelectViewController.xib in Resources */,
+				785152A01FEA5BA70015DA91 /* button_background.png in Resources */,
 				782B15631FE7BDFD00F916A4 /* LaunchScreen.storyboard in Resources */,
 				7851529E1FEA44FE0015DA91 /* cs_logo.png in Resources */,
+				785152A41FEA652F0015DA91 /* Button-Blank-Gray-icon.png in Resources */,
 				782B15A51FE7C54C00F916A4 /* Limited-christmas.png in Resources */,
 				782B15601FE7BDFD00F916A4 /* Assets.xcassets in Resources */,
 				785152801FEA08C50015DA91 /* CSFinalCompleteViewController.xib in Resources */,
@@ -600,13 +614,15 @@
 				785152731FE919520015DA91 /* CSGiftHoldViewController.xib in Resources */,
 				7851528F1FEA40650015DA91 /* christmas_background.jpg in Resources */,
 				782B15E01FE9002300F916A4 /* frame_cute.png in Resources */,
-				782B15B21FE7CA7700F916A4 /* CSGiftCell.xib in Resources */,
+				782B15B21FE7CA7700F916A4 /* CSProgressBar.xib in Resources */,
 				785152841FEA09230015DA91 /* CSGiftHomeViewController.xib in Resources */,
+				785152A61FEA65340015DA91 /* Button-Blank-Yellow-icon.png in Resources */,
 				782B159D1FE7C38100F916A4 /* redButtonBackground.png in Resources */,
 				782B15D71FE8EE2900F916A4 /* CSNotificationCell.xib in Resources */,
 				782B159B1FE7C1CB00F916A4 /* pexels-photo-370799.jpeg in Resources */,
 				7851528D1FEA3F410015DA91 /* CSLoginViewController.xib in Resources */,
 				782B15941FE7BF0900F916A4 /* CSCompleteViewController.xib in Resources */,
+				785152A21FEA5EEF0015DA91 /* colorful_background.jpg in Resources */,
 				782B15A11FE7C53F00F916A4 /* HaagenDazs.png in Resources */,
 				782B15DC1FE8FD9D00F916A4 /* CSTermsConditionsViewController.xib in Resources */,
 			);
@@ -803,7 +819,7 @@
 				782B15661FE7BDFD00F916A4 /* main.m in Sources */,
 				7851529C1FEA432D0015DA91 /* NetworkUnit.m in Sources */,
 				782B15581FE7BDFD00F916A4 /* AppDelegate.m in Sources */,
-				782B15B01FE7C9C100F916A4 /* CSGiftCell.m in Sources */,
+				782B15B01FE7C9C100F916A4 /* CSProgressBar.m in Sources */,
 				782B15BC1FE89CAE00F916A4 /* CSGiftSelectViewController.m in Sources */,
 				782B15971FE7BFA000F916A4 /* CSUserModel.m in Sources */,
 				7851528C1FEA3F410015DA91 /* CSLoginViewController.m in Sources */,
