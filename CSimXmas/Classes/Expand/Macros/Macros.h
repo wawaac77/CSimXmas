@@ -29,5 +29,9 @@
 #define iphone5 (ScreenH == 568)
 #define iphone4 (ScreenH == 480)
 
+/*****************  API  ******************/
+#define LAB_API @"https://uat.clubsim.com.hk/clsmw/api/"
+#define PRD_API @"https://www.theclub.com.hk/clsmw/api/"
+
 
 #endif /* Macros_h */

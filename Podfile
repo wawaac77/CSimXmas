@@ -4,13 +4,12 @@
 target 'CSimXmas' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
-
-pod 'SVProgressHUD'
-pod 'MJExtension'
-pod 'MJRefresh'
-pod 'Masonry'
-
   # Pods for CSimXmas
+    pod 'SVProgressHUD'
+    pod 'MJExtension'
+    pod 'MJRefresh'
+    pod 'Masonry'
+    pod 'AFNetworking', '~> 3.0'
 
   target 'CSimXmasTests' do
     inherit! :search_paths

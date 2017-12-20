@@ -49,6 +49,14 @@
 		785152801FEA08C50015DA91 /* CSFinalCompleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7851527E1FEA08C50015DA91 /* CSFinalCompleteViewController.xib */; };
 		785152841FEA09230015DA91 /* CSGiftHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785152811FEA09220015DA91 /* CSGiftHomeViewController.xib */; };
 		785152851FEA09230015DA91 /* CSGiftHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785152821FEA09230015DA91 /* CSGiftHomeViewController.m */; };
+		7851528C1FEA3F410015DA91 /* CSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851528A1FEA3F410015DA91 /* CSLoginViewController.m */; };
+		7851528D1FEA3F410015DA91 /* CSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7851528B1FEA3F410015DA91 /* CSLoginViewController.xib */; };
+		7851528F1FEA40650015DA91 /* christmas_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7851528E1FEA40650015DA91 /* christmas_background.jpg */; };
+		785152991FEA432D0015DA91 /* RequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 785152921FEA432D0015DA91 /* RequestTool.m */; };
+		7851529A1FEA432D0015DA91 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 785152951FEA432D0015DA91 /* Reachability.m */; };
+		7851529B1FEA432D0015DA91 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 785152961FEA432D0015DA91 /* EGOCache.m */; };
+		7851529C1FEA432D0015DA91 /* NetworkUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 785152981FEA432D0015DA91 /* NetworkUnit.m */; };
+		7851529E1FEA44FE0015DA91 /* cs_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7851529D1FEA44FD0015DA91 /* cs_logo.png */; };
 		825E4157E929CFFE03E0771A /* libPods-CSimXmas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7349BA728310FF9AD15C8CD /* libPods-CSimXmas.a */; };
 		845D619BAF16550E0CA3CD41 /* libPods-CSimXmasTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F10FD4668B244D42031A7416 /* libPods-CSimXmasTests.a */; };
 /* End PBXBuildFile section */
@@ -142,6 +150,19 @@
 		785152811FEA09220015DA91 /* CSGiftHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CSGiftHomeViewController.xib; sourceTree = "<group>"; };
 		785152821FEA09230015DA91 /* CSGiftHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGiftHomeViewController.m; sourceTree = "<group>"; };
 		785152831FEA09230015DA91 /* CSGiftHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGiftHomeViewController.h; sourceTree = "<group>"; };
+		785152891FEA3F410015DA91 /* CSLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSLoginViewController.h; sourceTree = "<group>"; };
+		7851528A1FEA3F410015DA91 /* CSLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSLoginViewController.m; sourceTree = "<group>"; };
+		7851528B1FEA3F410015DA91 /* CSLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSLoginViewController.xib; sourceTree = "<group>"; };
+		7851528E1FEA40650015DA91 /* christmas_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = christmas_background.jpg; sourceTree = "<group>"; };
+		785152911FEA432D0015DA91 /* NetworkUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkUnit.h; sourceTree = "<group>"; };
+		785152921FEA432D0015DA91 /* RequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestTool.m; sourceTree = "<group>"; };
+		785152931FEA432D0015DA91 /* RequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestTool.h; sourceTree = "<group>"; };
+		785152941FEA432D0015DA91 /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		785152951FEA432D0015DA91 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		785152961FEA432D0015DA91 /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		785152971FEA432D0015DA91 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		785152981FEA432D0015DA91 /* NetworkUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkUnit.m; sourceTree = "<group>"; };
+		7851529D1FEA44FD0015DA91 /* cs_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cs_logo.png; sourceTree = "<group>"; };
 		ADDCE7C0CE1F7C39E5428735 /* Pods-CSimXmas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSimXmas.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSimXmas/Pods-CSimXmas.release.xcconfig"; sourceTree = "<group>"; };
 		CDF1BA16F1C671CF044138D1 /* Pods-CSimXmasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSimXmasUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSimXmasUITests/Pods-CSimXmasUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D7349BA728310FF9AD15C8CD /* libPods-CSimXmas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CSimXmas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -257,9 +278,8 @@
 		782B158F1FE7BEF600F916A4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				782B15AD1FE7C97700F916A4 /* Controller */,
-				782B15AC1FE7C94200F916A4 /* Model */,
-				782B15AB1FE7C92F00F916A4 /* View */,
+				785152861FEA3E720015DA91 /* Login */,
+				785152881FEA3EC80015DA91 /* Gift */,
 				782B15981FE7C17D00F916A4 /* Resource */,
 				782B15BE1FE8A9EA00F916A4 /* Expand */,
 			);
@@ -269,6 +289,7 @@
 		782B15981FE7C17D00F916A4 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				785152901FEA42D00015DA91 /* RequestTool */,
 				782B15991FE7C17D00F916A4 /* Images */,
 			);
 			path = Resource;
@@ -277,6 +298,8 @@
 		782B15991FE7C17D00F916A4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				7851529D1FEA44FD0015DA91 /* cs_logo.png */,
+				7851528E1FEA40650015DA91 /* christmas_background.jpg */,
 				782B15DF1FE9002300F916A4 /* frame_cute.png */,
 				782B15DD1FE8FECE00F916A4 /* arrow_right.jpg */,
 				782B15A41FE7C54C00F916A4 /* Limited-christmas.png */,
@@ -403,6 +426,49 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		785152861FEA3E720015DA91 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				785152871FEA3E920015DA91 /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		785152871FEA3E920015DA91 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				785152891FEA3F410015DA91 /* CSLoginViewController.h */,
+				7851528A1FEA3F410015DA91 /* CSLoginViewController.m */,
+				7851528B1FEA3F410015DA91 /* CSLoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		785152881FEA3EC80015DA91 /* Gift */ = {
+			isa = PBXGroup;
+			children = (
+				782B15AD1FE7C97700F916A4 /* Controller */,
+				782B15AC1FE7C94200F916A4 /* Model */,
+				782B15AB1FE7C92F00F916A4 /* View */,
+			);
+			path = Gift;
+			sourceTree = "<group>";
+		};
+		785152901FEA42D00015DA91 /* RequestTool */ = {
+			isa = PBXGroup;
+			children = (
+				785152941FEA432D0015DA91 /* EGOCache.h */,
+				785152961FEA432D0015DA91 /* EGOCache.m */,
+				785152911FEA432D0015DA91 /* NetworkUnit.h */,
+				785152981FEA432D0015DA91 /* NetworkUnit.m */,
+				785152971FEA432D0015DA91 /* Reachability.h */,
+				785152951FEA432D0015DA91 /* Reachability.m */,
+				785152931FEA432D0015DA91 /* RequestTool.h */,
+				785152921FEA432D0015DA91 /* RequestTool.m */,
+			);
+			path = RequestTool;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -523,6 +589,7 @@
 				782B15A31FE7C54800F916A4 /* iCremeria.png in Resources */,
 				782B15BD1FE89CAE00F916A4 /* CSGiftSelectViewController.xib in Resources */,
 				782B15631FE7BDFD00F916A4 /* LaunchScreen.storyboard in Resources */,
+				7851529E1FEA44FE0015DA91 /* cs_logo.png in Resources */,
 				782B15A51FE7C54C00F916A4 /* Limited-christmas.png in Resources */,
 				782B15601FE7BDFD00F916A4 /* Assets.xcassets in Resources */,
 				785152801FEA08C50015DA91 /* CSFinalCompleteViewController.xib in Resources */,
@@ -531,12 +598,14 @@
 				782B15CF1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.xib in Resources */,
 				782B155E1FE7BDFD00F916A4 /* Main.storyboard in Resources */,
 				785152731FE919520015DA91 /* CSGiftHoldViewController.xib in Resources */,
+				7851528F1FEA40650015DA91 /* christmas_background.jpg in Resources */,
 				782B15E01FE9002300F916A4 /* frame_cute.png in Resources */,
 				782B15B21FE7CA7700F916A4 /* CSGiftCell.xib in Resources */,
 				785152841FEA09230015DA91 /* CSGiftHomeViewController.xib in Resources */,
 				782B159D1FE7C38100F916A4 /* redButtonBackground.png in Resources */,
 				782B15D71FE8EE2900F916A4 /* CSNotificationCell.xib in Resources */,
 				782B159B1FE7C1CB00F916A4 /* pexels-photo-370799.jpeg in Resources */,
+				7851528D1FEA3F410015DA91 /* CSLoginViewController.xib in Resources */,
 				782B15941FE7BF0900F916A4 /* CSCompleteViewController.xib in Resources */,
 				782B15A11FE7C53F00F916A4 /* HaagenDazs.png in Resources */,
 				782B15DC1FE8FD9D00F916A4 /* CSTermsConditionsViewController.xib in Resources */,
@@ -722,17 +791,22 @@
 				785152761FE9FA410015DA91 /* CSCardSelectTableViewController.m in Sources */,
 				785152851FEA09230015DA91 /* CSGiftHomeViewController.m in Sources */,
 				7851527F1FEA08C50015DA91 /* CSFinalCompleteViewController.m in Sources */,
+				785152991FEA432D0015DA91 /* RequestTool.m in Sources */,
+				7851529B1FEA432D0015DA91 /* EGOCache.m in Sources */,
 				782B15D21FE8EE0600F916A4 /* CSNotificationTableViewController.m in Sources */,
 				782B15DB1FE8FD9D00F916A4 /* CSTermsConditionsViewController.m in Sources */,
+				7851529A1FEA432D0015DA91 /* Reachability.m in Sources */,
 				782B155B1FE7BDFD00F916A4 /* ViewController.m in Sources */,
 				782B15B81FE7CE4800F916A4 /* CSCompleteViewController.m in Sources */,
 				785152721FE919520015DA91 /* CSGiftHoldViewController.m in Sources */,
 				782B15CE1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.m in Sources */,
 				782B15661FE7BDFD00F916A4 /* main.m in Sources */,
+				7851529C1FEA432D0015DA91 /* NetworkUnit.m in Sources */,
 				782B15581FE7BDFD00F916A4 /* AppDelegate.m in Sources */,
 				782B15B01FE7C9C100F916A4 /* CSGiftCell.m in Sources */,
 				782B15BC1FE89CAE00F916A4 /* CSGiftSelectViewController.m in Sources */,
 				782B15971FE7BFA000F916A4 /* CSUserModel.m in Sources */,
+				7851528C1FEA3F410015DA91 /* CSLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

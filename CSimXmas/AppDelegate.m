@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "CSGiftHomeViewController.h"
+#import "CSLoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,8 +21,14 @@
     // Override point for customization after application launch.
     [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"pexels-photo-370799.jpeg"] forBarMetrics:UIBarMetricsDefault];
     
+    
     CSGiftHomeViewController *giftHomeVC = [[CSGiftHomeViewController alloc] init];
     UINavigationController *navigationVC = [[UINavigationController alloc] initWithRootViewController:giftHomeVC];
+    
+    /*
+    CSLoginViewController *loginVC = [[CSLoginViewController alloc] init];
+    UINavigationController *navigationVC = [[UINavigationController alloc] initWithRootViewController:loginVC];
+     */
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     

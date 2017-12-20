@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '25085225B59939D79B002415492264FA'
+               BlueprintIdentifier = '6A2545B4D1B1FDDE191022C0DC0B2ED4'
                BlueprintName = 'Pods-CSimXmas'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-CSimXmas.a'>
