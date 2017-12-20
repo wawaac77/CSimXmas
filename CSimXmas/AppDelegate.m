@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CSGiftHomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"pexels-photo-370799.jpeg"] forBarMetrics:UIBarMetricsDefault];
+    
+    CSGiftHomeViewController *giftHomeVC = [[CSGiftHomeViewController alloc] init];
+    UINavigationController *navigationVC = [[UINavigationController alloc] initWithRootViewController:giftHomeVC];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.window.rootViewController = navigationVC;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

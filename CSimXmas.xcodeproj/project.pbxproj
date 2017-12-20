@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1863AD896386507FF89A32EF /* libPods-CSimXmasUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F075315D9FFA55C880317353 /* libPods-CSimXmasUITests.a */; };
 		782B15581FE7BDFD00F916A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15571FE7BDFD00F916A4 /* AppDelegate.m */; };
 		782B155B1FE7BDFD00F916A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B155A1FE7BDFD00F916A4 /* ViewController.m */; };
 		782B155E1FE7BDFD00F916A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782B155C1FE7BDFD00F916A4 /* Main.storyboard */; };
@@ -15,6 +16,41 @@
 		782B15661FE7BDFD00F916A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15651FE7BDFD00F916A4 /* main.m */; };
 		782B15701FE7BDFD00F916A4 /* CSimXmasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B156F1FE7BDFD00F916A4 /* CSimXmasTests.m */; };
 		782B157B1FE7BDFD00F916A4 /* CSimXmasUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B157A1FE7BDFD00F916A4 /* CSimXmasUITests.m */; };
+		782B15941FE7BF0900F916A4 /* CSCompleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 782B15921FE7BF0900F916A4 /* CSCompleteViewController.xib */; };
+		782B15971FE7BFA000F916A4 /* CSUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15961FE7BFA000F916A4 /* CSUserModel.m */; };
+		782B159B1FE7C1CB00F916A4 /* pexels-photo-370799.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 782B159A1FE7C1CB00F916A4 /* pexels-photo-370799.jpeg */; };
+		782B159D1FE7C38100F916A4 /* redButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 782B159C1FE7C38100F916A4 /* redButtonBackground.png */; };
+		782B159F1FE7C53A00F916A4 /* hmv.png in Resources */ = {isa = PBXBuildFile; fileRef = 782B159E1FE7C53A00F916A4 /* hmv.png */; };
+		782B15A11FE7C53F00F916A4 /* HaagenDazs.png in Resources */ = {isa = PBXBuildFile; fileRef = 782B15A01FE7C53F00F916A4 /* HaagenDazs.png */; };
+		782B15A31FE7C54800F916A4 /* iCremeria.png in Resources */ = {isa = PBXBuildFile; fileRef = 782B15A21FE7C54800F916A4 /* iCremeria.png */; };
+		782B15A51FE7C54C00F916A4 /* Limited-christmas.png in Resources */ = {isa = PBXBuildFile; fileRef = 782B15A41FE7C54C00F916A4 /* Limited-christmas.png */; };
+		782B15B01FE7C9C100F916A4 /* CSGiftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15AF1FE7C9C100F916A4 /* CSGiftCell.m */; };
+		782B15B21FE7CA7700F916A4 /* CSGiftCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 782B15B11FE7CA7700F916A4 /* CSGiftCell.xib */; };
+		782B15B51FE7CE0300F916A4 /* CSGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15B41FE7CE0300F916A4 /* CSGiftModel.m */; };
+		782B15B81FE7CE4800F916A4 /* CSCompleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15B71FE7CE4800F916A4 /* CSCompleteViewController.m */; };
+		782B15BC1FE89CAE00F916A4 /* CSGiftSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15BA1FE89CAE00F916A4 /* CSGiftSelectViewController.m */; };
+		782B15BD1FE89CAE00F916A4 /* CSGiftSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 782B15BB1FE89CAE00F916A4 /* CSGiftSelectViewController.xib */; };
+		782B15CA1FE8CABC00F916A4 /* CSConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15C91FE8CABC00F916A4 /* CSConsts.m */; };
+		782B15CE1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15CC1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.m */; };
+		782B15CF1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 782B15CD1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.xib */; };
+		782B15D21FE8EE0600F916A4 /* CSNotificationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15D11FE8EE0600F916A4 /* CSNotificationTableViewController.m */; };
+		782B15D61FE8EE2900F916A4 /* CSNotificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15D41FE8EE2900F916A4 /* CSNotificationCell.m */; };
+		782B15D71FE8EE2900F916A4 /* CSNotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 782B15D51FE8EE2900F916A4 /* CSNotificationCell.xib */; };
+		782B15DB1FE8FD9D00F916A4 /* CSTermsConditionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782B15D91FE8FD9D00F916A4 /* CSTermsConditionsViewController.m */; };
+		782B15DC1FE8FD9D00F916A4 /* CSTermsConditionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 782B15DA1FE8FD9D00F916A4 /* CSTermsConditionsViewController.xib */; };
+		782B15DE1FE8FECE00F916A4 /* arrow_right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 782B15DD1FE8FECE00F916A4 /* arrow_right.jpg */; };
+		782B15E01FE9002300F916A4 /* frame_cute.png in Resources */ = {isa = PBXBuildFile; fileRef = 782B15DF1FE9002300F916A4 /* frame_cute.png */; };
+		785152721FE919520015DA91 /* CSGiftHoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785152701FE919520015DA91 /* CSGiftHoldViewController.m */; };
+		785152731FE919520015DA91 /* CSGiftHoldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785152711FE919520015DA91 /* CSGiftHoldViewController.xib */; };
+		785152761FE9FA410015DA91 /* CSCardSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785152751FE9FA410015DA91 /* CSCardSelectTableViewController.m */; };
+		7851527A1FE9FAE60015DA91 /* CSCardSelectContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 785152781FE9FAE60015DA91 /* CSCardSelectContactCell.m */; };
+		7851527B1FE9FAE60015DA91 /* CSCardSelectContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785152791FE9FAE60015DA91 /* CSCardSelectContactCell.xib */; };
+		7851527F1FEA08C50015DA91 /* CSFinalCompleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851527D1FEA08C50015DA91 /* CSFinalCompleteViewController.m */; };
+		785152801FEA08C50015DA91 /* CSFinalCompleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7851527E1FEA08C50015DA91 /* CSFinalCompleteViewController.xib */; };
+		785152841FEA09230015DA91 /* CSGiftHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785152811FEA09220015DA91 /* CSGiftHomeViewController.xib */; };
+		785152851FEA09230015DA91 /* CSGiftHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785152821FEA09230015DA91 /* CSGiftHomeViewController.m */; };
+		825E4157E929CFFE03E0771A /* libPods-CSimXmas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7349BA728310FF9AD15C8CD /* libPods-CSimXmas.a */; };
+		845D619BAF16550E0CA3CD41 /* libPods-CSimXmasTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F10FD4668B244D42031A7416 /* libPods-CSimXmasTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +71,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03A9286985F03D23B6FD652D /* Pods-CSimXmasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSimXmasTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSimXmasTests/Pods-CSimXmasTests.release.xcconfig"; sourceTree = "<group>"; };
+		0D710A884BCFDF1C5266CE4F /* Pods-CSimXmasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSimXmasUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSimXmasUITests/Pods-CSimXmasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		381BFCCC9A357E1F9AC0D824 /* Pods-CSimXmas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSimXmas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSimXmas/Pods-CSimXmas.debug.xcconfig"; sourceTree = "<group>"; };
+		3A0A2F90EF26ECAB5046C071 /* Pods-CSimXmasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSimXmasTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSimXmasTests/Pods-CSimXmasTests.debug.xcconfig"; sourceTree = "<group>"; };
 		782B15531FE7BDFD00F916A4 /* CSimXmas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSimXmas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		782B15561FE7BDFD00F916A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		782B15571FE7BDFD00F916A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +91,62 @@
 		782B15761FE7BDFD00F916A4 /* CSimXmasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSimXmasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		782B157A1FE7BDFD00F916A4 /* CSimXmasUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSimXmasUITests.m; sourceTree = "<group>"; };
 		782B157C1FE7BDFD00F916A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782B15921FE7BF0900F916A4 /* CSCompleteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSCompleteViewController.xib; sourceTree = "<group>"; };
+		782B15951FE7BFA000F916A4 /* CSUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSUserModel.h; sourceTree = "<group>"; };
+		782B15961FE7BFA000F916A4 /* CSUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSUserModel.m; sourceTree = "<group>"; };
+		782B159A1FE7C1CB00F916A4 /* pexels-photo-370799.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pexels-photo-370799.jpeg"; sourceTree = "<group>"; };
+		782B159C1FE7C38100F916A4 /* redButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButtonBackground.png; sourceTree = "<group>"; };
+		782B159E1FE7C53A00F916A4 /* hmv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hmv.png; sourceTree = "<group>"; };
+		782B15A01FE7C53F00F916A4 /* HaagenDazs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HaagenDazs.png; sourceTree = "<group>"; };
+		782B15A21FE7C54800F916A4 /* iCremeria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iCremeria.png; sourceTree = "<group>"; };
+		782B15A41FE7C54C00F916A4 /* Limited-christmas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Limited-christmas.png"; sourceTree = "<group>"; };
+		782B15AE1FE7C9C100F916A4 /* CSGiftCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSGiftCell.h; sourceTree = "<group>"; };
+		782B15AF1FE7C9C100F916A4 /* CSGiftCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSGiftCell.m; sourceTree = "<group>"; };
+		782B15B11FE7CA7700F916A4 /* CSGiftCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSGiftCell.xib; sourceTree = "<group>"; };
+		782B15B31FE7CE0300F916A4 /* CSGiftModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSGiftModel.h; sourceTree = "<group>"; };
+		782B15B41FE7CE0300F916A4 /* CSGiftModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSGiftModel.m; sourceTree = "<group>"; };
+		782B15B61FE7CE4800F916A4 /* CSCompleteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSCompleteViewController.h; sourceTree = "<group>"; };
+		782B15B71FE7CE4800F916A4 /* CSCompleteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSCompleteViewController.m; sourceTree = "<group>"; };
+		782B15B91FE89CAE00F916A4 /* CSGiftSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSGiftSelectViewController.h; sourceTree = "<group>"; };
+		782B15BA1FE89CAE00F916A4 /* CSGiftSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSGiftSelectViewController.m; sourceTree = "<group>"; };
+		782B15BB1FE89CAE00F916A4 /* CSGiftSelectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSGiftSelectViewController.xib; sourceTree = "<group>"; };
+		782B15C41FE8BD5E00F916A4 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		782B15C51FE8C14900F916A4 /* Headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Headers.h; sourceTree = "<group>"; };
+		782B15C71FE8C24B00F916A4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		782B15C81FE8CABC00F916A4 /* CSConsts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSConsts.h; sourceTree = "<group>"; };
+		782B15C91FE8CABC00F916A4 /* CSConsts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSConsts.m; sourceTree = "<group>"; };
+		782B15CB1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSGiftCollectionViewCell.h; sourceTree = "<group>"; };
+		782B15CC1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSGiftCollectionViewCell.m; sourceTree = "<group>"; };
+		782B15CD1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSGiftCollectionViewCell.xib; sourceTree = "<group>"; };
+		782B15D01FE8EE0600F916A4 /* CSNotificationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSNotificationTableViewController.h; sourceTree = "<group>"; };
+		782B15D11FE8EE0600F916A4 /* CSNotificationTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSNotificationTableViewController.m; sourceTree = "<group>"; };
+		782B15D31FE8EE2900F916A4 /* CSNotificationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSNotificationCell.h; sourceTree = "<group>"; };
+		782B15D41FE8EE2900F916A4 /* CSNotificationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSNotificationCell.m; sourceTree = "<group>"; };
+		782B15D51FE8EE2900F916A4 /* CSNotificationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSNotificationCell.xib; sourceTree = "<group>"; };
+		782B15D81FE8FD9D00F916A4 /* CSTermsConditionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSTermsConditionsViewController.h; sourceTree = "<group>"; };
+		782B15D91FE8FD9D00F916A4 /* CSTermsConditionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSTermsConditionsViewController.m; sourceTree = "<group>"; };
+		782B15DA1FE8FD9D00F916A4 /* CSTermsConditionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSTermsConditionsViewController.xib; sourceTree = "<group>"; };
+		782B15DD1FE8FECE00F916A4 /* arrow_right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arrow_right.jpg; sourceTree = "<group>"; };
+		782B15DF1FE9002300F916A4 /* frame_cute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_cute.png; sourceTree = "<group>"; };
+		7851526F1FE919520015DA91 /* CSGiftHoldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSGiftHoldViewController.h; sourceTree = "<group>"; };
+		785152701FE919520015DA91 /* CSGiftHoldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSGiftHoldViewController.m; sourceTree = "<group>"; };
+		785152711FE919520015DA91 /* CSGiftHoldViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSGiftHoldViewController.xib; sourceTree = "<group>"; };
+		785152741FE9FA410015DA91 /* CSCardSelectTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSCardSelectTableViewController.h; sourceTree = "<group>"; };
+		785152751FE9FA410015DA91 /* CSCardSelectTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSCardSelectTableViewController.m; sourceTree = "<group>"; };
+		785152771FE9FAE60015DA91 /* CSCardSelectContactCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSCardSelectContactCell.h; sourceTree = "<group>"; };
+		785152781FE9FAE60015DA91 /* CSCardSelectContactCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSCardSelectContactCell.m; sourceTree = "<group>"; };
+		785152791FE9FAE60015DA91 /* CSCardSelectContactCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSCardSelectContactCell.xib; sourceTree = "<group>"; };
+		7851527C1FEA08C50015DA91 /* CSFinalCompleteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSFinalCompleteViewController.h; sourceTree = "<group>"; };
+		7851527D1FEA08C50015DA91 /* CSFinalCompleteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSFinalCompleteViewController.m; sourceTree = "<group>"; };
+		7851527E1FEA08C50015DA91 /* CSFinalCompleteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSFinalCompleteViewController.xib; sourceTree = "<group>"; };
+		785152811FEA09220015DA91 /* CSGiftHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CSGiftHomeViewController.xib; sourceTree = "<group>"; };
+		785152821FEA09230015DA91 /* CSGiftHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGiftHomeViewController.m; sourceTree = "<group>"; };
+		785152831FEA09230015DA91 /* CSGiftHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGiftHomeViewController.h; sourceTree = "<group>"; };
+		ADDCE7C0CE1F7C39E5428735 /* Pods-CSimXmas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSimXmas.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSimXmas/Pods-CSimXmas.release.xcconfig"; sourceTree = "<group>"; };
+		CDF1BA16F1C671CF044138D1 /* Pods-CSimXmasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSimXmasUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSimXmasUITests/Pods-CSimXmasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7349BA728310FF9AD15C8CD /* libPods-CSimXmas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CSimXmas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F075315D9FFA55C880317353 /* libPods-CSimXmasUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CSimXmasUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10FD4668B244D42031A7416 /* libPods-CSimXmasTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CSimXmasTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				825E4157E929CFFE03E0771A /* libPods-CSimXmas.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845D619BAF16550E0CA3CD41 /* libPods-CSimXmasTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +170,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1863AD896386507FF89A32EF /* libPods-CSimXmasUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EE7BE1EAFCD481B7C6AB5D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				381BFCCC9A357E1F9AC0D824 /* Pods-CSimXmas.debug.xcconfig */,
+				ADDCE7C0CE1F7C39E5428735 /* Pods-CSimXmas.release.xcconfig */,
+				3A0A2F90EF26ECAB5046C071 /* Pods-CSimXmasTests.debug.xcconfig */,
+				03A9286985F03D23B6FD652D /* Pods-CSimXmasTests.release.xcconfig */,
+				CDF1BA16F1C671CF044138D1 /* Pods-CSimXmasUITests.debug.xcconfig */,
+				0D710A884BCFDF1C5266CE4F /* Pods-CSimXmasUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E9F3DF3CA548C093A0DD863 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7349BA728310FF9AD15C8CD /* libPods-CSimXmas.a */,
+				F10FD4668B244D42031A7416 /* libPods-CSimXmasTests.a */,
+				F075315D9FFA55C880317353 /* libPods-CSimXmasUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		782B154A1FE7BDFD00F916A4 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +207,8 @@
 				782B156E1FE7BDFD00F916A4 /* CSimXmasTests */,
 				782B15791FE7BDFD00F916A4 /* CSimXmasUITests */,
 				782B15541FE7BDFD00F916A4 /* Products */,
+				0EE7BE1EAFCD481B7C6AB5D4 /* Pods */,
+				5E9F3DF3CA548C093A0DD863 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,10 +230,8 @@
 				782B15591FE7BDFD00F916A4 /* ViewController.h */,
 				782B155A1FE7BDFD00F916A4 /* ViewController.m */,
 				782B155C1FE7BDFD00F916A4 /* Main.storyboard */,
-				782B155F1FE7BDFD00F916A4 /* Assets.xcassets */,
-				782B15611FE7BDFD00F916A4 /* LaunchScreen.storyboard */,
-				782B15641FE7BDFD00F916A4 /* Info.plist */,
-				782B15651FE7BDFD00F916A4 /* main.m */,
+				782B158F1FE7BEF600F916A4 /* Classes */,
+				782B15C61FE8C1F300F916A4 /* Supporting Files */,
 			);
 			path = CSimXmas;
 			sourceTree = "<group>";
@@ -132,6 +254,155 @@
 			path = CSimXmasUITests;
 			sourceTree = "<group>";
 		};
+		782B158F1FE7BEF600F916A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				782B15AD1FE7C97700F916A4 /* Controller */,
+				782B15AC1FE7C94200F916A4 /* Model */,
+				782B15AB1FE7C92F00F916A4 /* View */,
+				782B15981FE7C17D00F916A4 /* Resource */,
+				782B15BE1FE8A9EA00F916A4 /* Expand */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		782B15981FE7C17D00F916A4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				782B15991FE7C17D00F916A4 /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		782B15991FE7C17D00F916A4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				782B15DF1FE9002300F916A4 /* frame_cute.png */,
+				782B15DD1FE8FECE00F916A4 /* arrow_right.jpg */,
+				782B15A41FE7C54C00F916A4 /* Limited-christmas.png */,
+				782B15A21FE7C54800F916A4 /* iCremeria.png */,
+				782B15A01FE7C53F00F916A4 /* HaagenDazs.png */,
+				782B159E1FE7C53A00F916A4 /* hmv.png */,
+				782B159C1FE7C38100F916A4 /* redButtonBackground.png */,
+				782B159A1FE7C1CB00F916A4 /* pexels-photo-370799.jpeg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		782B15AB1FE7C92F00F916A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				782B15AE1FE7C9C100F916A4 /* CSGiftCell.h */,
+				782B15AF1FE7C9C100F916A4 /* CSGiftCell.m */,
+				782B15B11FE7CA7700F916A4 /* CSGiftCell.xib */,
+				782B15CB1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.h */,
+				782B15CC1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.m */,
+				782B15CD1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.xib */,
+				782B15D31FE8EE2900F916A4 /* CSNotificationCell.h */,
+				782B15D41FE8EE2900F916A4 /* CSNotificationCell.m */,
+				782B15D51FE8EE2900F916A4 /* CSNotificationCell.xib */,
+				785152771FE9FAE60015DA91 /* CSCardSelectContactCell.h */,
+				785152781FE9FAE60015DA91 /* CSCardSelectContactCell.m */,
+				785152791FE9FAE60015DA91 /* CSCardSelectContactCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		782B15AC1FE7C94200F916A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				782B15951FE7BFA000F916A4 /* CSUserModel.h */,
+				782B15961FE7BFA000F916A4 /* CSUserModel.m */,
+				782B15B31FE7CE0300F916A4 /* CSGiftModel.h */,
+				782B15B41FE7CE0300F916A4 /* CSGiftModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		782B15AD1FE7C97700F916A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				785152831FEA09230015DA91 /* CSGiftHomeViewController.h */,
+				785152821FEA09230015DA91 /* CSGiftHomeViewController.m */,
+				785152811FEA09220015DA91 /* CSGiftHomeViewController.xib */,
+				782B15B61FE7CE4800F916A4 /* CSCompleteViewController.h */,
+				782B15B71FE7CE4800F916A4 /* CSCompleteViewController.m */,
+				782B15921FE7BF0900F916A4 /* CSCompleteViewController.xib */,
+				782B15B91FE89CAE00F916A4 /* CSGiftSelectViewController.h */,
+				782B15BA1FE89CAE00F916A4 /* CSGiftSelectViewController.m */,
+				782B15BB1FE89CAE00F916A4 /* CSGiftSelectViewController.xib */,
+				7851526F1FE919520015DA91 /* CSGiftHoldViewController.h */,
+				785152701FE919520015DA91 /* CSGiftHoldViewController.m */,
+				785152711FE919520015DA91 /* CSGiftHoldViewController.xib */,
+				782B15D01FE8EE0600F916A4 /* CSNotificationTableViewController.h */,
+				782B15D11FE8EE0600F916A4 /* CSNotificationTableViewController.m */,
+				782B15D81FE8FD9D00F916A4 /* CSTermsConditionsViewController.h */,
+				782B15D91FE8FD9D00F916A4 /* CSTermsConditionsViewController.m */,
+				782B15DA1FE8FD9D00F916A4 /* CSTermsConditionsViewController.xib */,
+				785152741FE9FA410015DA91 /* CSCardSelectTableViewController.h */,
+				785152751FE9FA410015DA91 /* CSCardSelectTableViewController.m */,
+				7851527C1FEA08C50015DA91 /* CSFinalCompleteViewController.h */,
+				7851527D1FEA08C50015DA91 /* CSFinalCompleteViewController.m */,
+				7851527E1FEA08C50015DA91 /* CSFinalCompleteViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		782B15BE1FE8A9EA00F916A4 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				782B15BF1FE8A9EA00F916A4 /* Category */,
+				782B15C01FE8A9EA00F916A4 /* Const */,
+				782B15C11FE8A9EA00F916A4 /* Macros */,
+				782B15C21FE8A9EA00F916A4 /* Headers */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		782B15BF1FE8A9EA00F916A4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		782B15C01FE8A9EA00F916A4 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				782B15C81FE8CABC00F916A4 /* CSConsts.h */,
+				782B15C91FE8CABC00F916A4 /* CSConsts.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		782B15C11FE8A9EA00F916A4 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				782B15C41FE8BD5E00F916A4 /* Macros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		782B15C21FE8A9EA00F916A4 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				782B15C51FE8C14900F916A4 /* Headers.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		782B15C61FE8C1F300F916A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				782B15641FE7BDFD00F916A4 /* Info.plist */,
+				782B155F1FE7BDFD00F916A4 /* Assets.xcassets */,
+				782B15611FE7BDFD00F916A4 /* LaunchScreen.storyboard */,
+				782B15651FE7BDFD00F916A4 /* main.m */,
+				782B15C71FE8C24B00F916A4 /* PrefixHeader.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +410,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 782B157F1FE7BDFD00F916A4 /* Build configuration list for PBXNativeTarget "CSimXmas" */;
 			buildPhases = (
+				9FABA6634682B3E5E3221E5D /* [CP] Check Pods Manifest.lock */,
 				782B154F1FE7BDFD00F916A4 /* Sources */,
 				782B15501FE7BDFD00F916A4 /* Frameworks */,
 				782B15511FE7BDFD00F916A4 /* Resources */,
+				3D5A4B2DBE98C6F764DC7FA8 /* [CP] Embed Pods Frameworks */,
+				5C30B25AF38489AFEE98EE9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +430,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 782B15821FE7BDFD00F916A4 /* Build configuration list for PBXNativeTarget "CSimXmasTests" */;
 			buildPhases = (
+				5961BC8DFC029EFB994320B1 /* [CP] Check Pods Manifest.lock */,
 				782B15671FE7BDFD00F916A4 /* Sources */,
 				782B15681FE7BDFD00F916A4 /* Frameworks */,
 				782B15691FE7BDFD00F916A4 /* Resources */,
+				EB8E6F01B1FCDBCB18675439 /* [CP] Embed Pods Frameworks */,
+				4FE1314A5CEE80310F4B6DB6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +451,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 782B15851FE7BDFD00F916A4 /* Build configuration list for PBXNativeTarget "CSimXmasUITests" */;
 			buildPhases = (
+				1879203FC6ADDCF572ED536D /* [CP] Check Pods Manifest.lock */,
 				782B15721FE7BDFD00F916A4 /* Sources */,
 				782B15731FE7BDFD00F916A4 /* Frameworks */,
 				782B15741FE7BDFD00F916A4 /* Resources */,
+				F97BDD327FD5838AE540087F /* [CP] Embed Pods Frameworks */,
+				CA29614B04E3B6E9378802C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +474,7 @@
 		782B154B1FE7BDFD00F916A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CS;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Alice Jin";
 				TargetAttributes = {
@@ -238,9 +519,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782B159F1FE7C53A00F916A4 /* hmv.png in Resources */,
+				782B15A31FE7C54800F916A4 /* iCremeria.png in Resources */,
+				782B15BD1FE89CAE00F916A4 /* CSGiftSelectViewController.xib in Resources */,
 				782B15631FE7BDFD00F916A4 /* LaunchScreen.storyboard in Resources */,
+				782B15A51FE7C54C00F916A4 /* Limited-christmas.png in Resources */,
 				782B15601FE7BDFD00F916A4 /* Assets.xcassets in Resources */,
+				785152801FEA08C50015DA91 /* CSFinalCompleteViewController.xib in Resources */,
+				782B15DE1FE8FECE00F916A4 /* arrow_right.jpg in Resources */,
+				7851527B1FE9FAE60015DA91 /* CSCardSelectContactCell.xib in Resources */,
+				782B15CF1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.xib in Resources */,
 				782B155E1FE7BDFD00F916A4 /* Main.storyboard in Resources */,
+				785152731FE919520015DA91 /* CSGiftHoldViewController.xib in Resources */,
+				782B15E01FE9002300F916A4 /* frame_cute.png in Resources */,
+				782B15B21FE7CA7700F916A4 /* CSGiftCell.xib in Resources */,
+				785152841FEA09230015DA91 /* CSGiftHomeViewController.xib in Resources */,
+				782B159D1FE7C38100F916A4 /* redButtonBackground.png in Resources */,
+				782B15D71FE8EE2900F916A4 /* CSNotificationCell.xib in Resources */,
+				782B159B1FE7C1CB00F916A4 /* pexels-photo-370799.jpeg in Resources */,
+				782B15941FE7BF0900F916A4 /* CSCompleteViewController.xib in Resources */,
+				782B15A11FE7C53F00F916A4 /* HaagenDazs.png in Resources */,
+				782B15DC1FE8FD9D00F916A4 /* CSTermsConditionsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +559,180 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1879203FC6ADDCF572ED536D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSimXmasUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D5A4B2DBE98C6F764DC7FA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CSimXmas/Pods-CSimXmas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FE1314A5CEE80310F4B6DB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CSimXmasTests/Pods-CSimXmasTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5961BC8DFC029EFB994320B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSimXmasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C30B25AF38489AFEE98EE9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CSimXmas/Pods-CSimXmas-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CSimXmas/Pods-CSimXmas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FABA6634682B3E5E3221E5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSimXmas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA29614B04E3B6E9378802C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CSimXmasUITests/Pods-CSimXmasUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB8E6F01B1FCDBCB18675439 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CSimXmasTests/Pods-CSimXmasTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F97BDD327FD5838AE540087F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CSimXmasUITests/Pods-CSimXmasUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		782B154F1FE7BDFD00F916A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7851527A1FE9FAE60015DA91 /* CSCardSelectContactCell.m in Sources */,
+				782B15D61FE8EE2900F916A4 /* CSNotificationCell.m in Sources */,
+				782B15B51FE7CE0300F916A4 /* CSGiftModel.m in Sources */,
+				782B15CA1FE8CABC00F916A4 /* CSConsts.m in Sources */,
+				785152761FE9FA410015DA91 /* CSCardSelectTableViewController.m in Sources */,
+				785152851FEA09230015DA91 /* CSGiftHomeViewController.m in Sources */,
+				7851527F1FEA08C50015DA91 /* CSFinalCompleteViewController.m in Sources */,
+				782B15D21FE8EE0600F916A4 /* CSNotificationTableViewController.m in Sources */,
+				782B15DB1FE8FD9D00F916A4 /* CSTermsConditionsViewController.m in Sources */,
 				782B155B1FE7BDFD00F916A4 /* ViewController.m in Sources */,
+				782B15B81FE7CE4800F916A4 /* CSCompleteViewController.m in Sources */,
+				785152721FE919520015DA91 /* CSGiftHoldViewController.m in Sources */,
+				782B15CE1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.m in Sources */,
 				782B15661FE7BDFD00F916A4 /* main.m in Sources */,
 				782B15581FE7BDFD00F916A4 /* AppDelegate.m in Sources */,
+				782B15B01FE7C9C100F916A4 /* CSGiftCell.m in Sources */,
+				782B15BC1FE89CAE00F916A4 /* CSGiftSelectViewController.m in Sources */,
+				782B15971FE7BFA000F916A4 /* CSUserModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +893,13 @@
 		};
 		782B15801FE7BDFD00F916A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 381BFCCC9A357E1F9AC0D824 /* Pods-CSimXmas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CSimXmas/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "CSimXmas/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HKT.CSimXmas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,10 +909,13 @@
 		};
 		782B15811FE7BDFD00F916A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADDCE7C0CE1F7C39E5428735 /* Pods-CSimXmas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CSimXmas/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "CSimXmas/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HKT.CSimXmas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,6 +925,7 @@
 		};
 		782B15831FE7BDFD00F916A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0A2F90EF26ECAB5046C071 /* Pods-CSimXmasTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +940,7 @@
 		};
 		782B15841FE7BDFD00F916A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03A9286985F03D23B6FD652D /* Pods-CSimXmasTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +955,7 @@
 		};
 		782B15861FE7BDFD00F916A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF1BA16F1C671CF044138D1 /* Pods-CSimXmasUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CSimXmasUITests/Info.plist;
@@ -495,6 +969,7 @@
 		};
 		782B15871FE7BDFD00F916A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D710A884BCFDF1C5266CE4F /* Pods-CSimXmasUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CSimXmasUITests/Info.plist;
