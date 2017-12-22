@@ -11,6 +11,7 @@
 #import "CSGiftHoldViewController.h"
 #import "CSNotificationTableViewController.h"
 #import "CSTermsConditionsViewController.h"
+#import "CSCardSelectTableViewController.h"
 
 #import <Masonry.h>
 
@@ -104,11 +105,21 @@
     _continueButton.backgroundColor = [UIColor lightGrayColor];
     [_continueButton setTitle:@"Continue" forState:UIControlStateNormal];
     [_continueButton addTarget:self action:@selector(continueButtonClicked) forControlEvents:UIControlEventTouchUpInside];
+    
+    UIButton *imageButton = [[UIButton alloc] initWithFrame:CGRectMake(CSMargin, CSMargin, ScreenW - CSMargin * 2, (ScreenW - CSMargin * 2) * 0.8)];
+    [self.scrollerView addSubview:imageButton];
+    [imageButton addTarget:self action:@selector(imageButtonClicked) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)continueButtonClicked {
     CSGiftHoldViewController *giftHoldVC = [[CSGiftHoldViewController alloc] initWithNibName:@"CSGiftHoldViewController" bundle:nil];
     [self.navigationController pushViewController:giftHoldVC animated:YES];
+    
+}
+
+- (void)imageButtonClicked {
+    CSCardSelectTableViewController *cardVC = [[CSCardSelectTableViewController alloc] initWithNibName:@"CSCardSelectTableViewController" bundle:nil];
+    [self.navigationController pushViewController:cardVC animated:YES];
     
 }
 

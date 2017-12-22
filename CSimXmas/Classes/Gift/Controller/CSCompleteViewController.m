@@ -27,6 +27,7 @@
     [super viewDidLoad];
     self.view.frame = ScreenBounds;
     self.navigationItem.title = @"Club SIM";
+    [self setUpBase];
     
 }
 

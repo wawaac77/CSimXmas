@@ -49,12 +49,12 @@
     detailLabel.numberOfLines = 0;
     detailLabel.clipsToBounds = YES;
     //calculate textSize
-    CGSize textMaxSize = CGSizeMake(ScreenW - CSMargin * 2, MAXFLOAT);
+    CGSize textMaxSize = CGSizeMake(ScreenW - CSMargin * 4, MAXFLOAT);
     CGSize textSize = [self.completeText boundingRectWithSize:textMaxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:15]} context:nil].size;
     [detailLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(bigLabel.mas_bottom).with.offset(30);
-        make.left.equalTo(self.view.mas_left).with.offset(CSMargin);
-        make.right.equalTo(self.view.mas_right).with.offset(-CSMargin);
+        make.top.mas_equalTo(bigLabel.mas_bottom).with.offset(20);
+        make.left.equalTo(self.view.mas_left).with.offset(CSMargin*2);
+        make.right.equalTo(self.view.mas_right).with.offset(-CSMargin*2);
         //make.centerX.mas_equalTo(self.view.mas_centerX);
         //make.center.mas_equalTo(self.view);
         //make.size.mas_equalTo(textSize);
@@ -62,7 +62,7 @@
     
     UIButton *sendFriendButton = [[UIButton alloc] init];
     [self.view addSubview:sendFriendButton];
-    [sendFriendButton setBackgroundImage:[UIImage imageNamed:@"colorful_background.jpg"] forState:UIControlStateNormal];
+    [sendFriendButton setBackgroundImage:[UIImage imageNamed:@"button_background.png"] forState:UIControlStateNormal];
     sendFriendButton.imageView.contentMode = UIViewContentModeScaleAspectFill;
     sendFriendButton.clipsToBounds = YES;
     [sendFriendButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CSCardSelectTableViewController : UITableViewController
+#import "iCarousel.h"
+
+@interface CSCardSelectTableViewController : UITableViewController <iCarouselDelegate, iCarouselDataSource>
 
 @end

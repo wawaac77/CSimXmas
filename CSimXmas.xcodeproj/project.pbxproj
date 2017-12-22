@@ -61,6 +61,7 @@
 		785152A21FEA5EEF0015DA91 /* colorful_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 785152A11FEA5EEF0015DA91 /* colorful_background.jpg */; };
 		785152A41FEA652F0015DA91 /* Button-Blank-Gray-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 785152A31FEA652F0015DA91 /* Button-Blank-Gray-icon.png */; };
 		785152A61FEA65340015DA91 /* Button-Blank-Yellow-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 785152A51FEA65340015DA91 /* Button-Blank-Yellow-icon.png */; };
+		785152AC1FEB5EB10015DA91 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 785152AB1FEB5EB10015DA91 /* iCarousel.m */; };
 		825E4157E929CFFE03E0771A /* libPods-CSimXmas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7349BA728310FF9AD15C8CD /* libPods-CSimXmas.a */; };
 		845D619BAF16550E0CA3CD41 /* libPods-CSimXmasTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F10FD4668B244D42031A7416 /* libPods-CSimXmasTests.a */; };
 /* End PBXBuildFile section */
@@ -171,6 +172,8 @@
 		785152A11FEA5EEF0015DA91 /* colorful_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colorful_background.jpg; sourceTree = "<group>"; };
 		785152A31FEA652F0015DA91 /* Button-Blank-Gray-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Blank-Gray-icon.png"; sourceTree = "<group>"; };
 		785152A51FEA65340015DA91 /* Button-Blank-Yellow-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Blank-Yellow-icon.png"; sourceTree = "<group>"; };
+		785152AA1FEB5EB10015DA91 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		785152AB1FEB5EB10015DA91 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		ADDCE7C0CE1F7C39E5428735 /* Pods-CSimXmas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSimXmas.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSimXmas/Pods-CSimXmas.release.xcconfig"; sourceTree = "<group>"; };
 		CDF1BA16F1C671CF044138D1 /* Pods-CSimXmasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSimXmasUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSimXmasUITests/Pods-CSimXmasUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D7349BA728310FF9AD15C8CD /* libPods-CSimXmas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CSimXmas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -327,6 +330,7 @@
 		782B15AB1FE7C92F00F916A4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				785152A81FEB5E9C0015DA91 /* CarouselView */,
 				782B15AE1FE7C9C100F916A4 /* CSProgressBar.h */,
 				782B15AF1FE7C9C100F916A4 /* CSProgressBar.m */,
 				782B15B11FE7CA7700F916A4 /* CSProgressBar.xib */,
@@ -479,6 +483,23 @@
 				785152921FEA432D0015DA91 /* RequestTool.m */,
 			);
 			path = RequestTool;
+			sourceTree = "<group>";
+		};
+		785152A81FEB5E9C0015DA91 /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				785152A91FEB5E9C0015DA91 /* 3rd */,
+			);
+			path = CarouselView;
+			sourceTree = "<group>";
+		};
+		785152A91FEB5E9C0015DA91 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				785152AA1FEB5EB10015DA91 /* iCarousel.h */,
+				785152AB1FEB5EB10015DA91 /* iCarousel.m */,
+			);
+			path = 3rd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -821,6 +842,7 @@
 				782B15581FE7BDFD00F916A4 /* AppDelegate.m in Sources */,
 				782B15B01FE7C9C100F916A4 /* CSProgressBar.m in Sources */,
 				782B15BC1FE89CAE00F916A4 /* CSGiftSelectViewController.m in Sources */,
+				785152AC1FEB5EB10015DA91 /* iCarousel.m in Sources */,
 				782B15971FE7BFA000F916A4 /* CSUserModel.m in Sources */,
 				7851528C1FEA3F410015DA91 /* CSLoginViewController.m in Sources */,
 			);
