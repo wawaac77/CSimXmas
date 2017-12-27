@@ -118,7 +118,7 @@
 }
 
 - (void)imageButtonClicked {
-    CSCardSelectTableViewController *cardVC = [[CSCardSelectTableViewController alloc] initWithNibName:@"CSCardSelectTableViewController" bundle:nil];
+    CSCardSelectTableViewController *cardVC = [[CSCardSelectTableViewController alloc] init];
     [self.navigationController pushViewController:cardVC animated:YES];
     
 }

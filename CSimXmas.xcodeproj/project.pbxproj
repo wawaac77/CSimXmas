@@ -40,6 +40,24 @@
 		782B15DC1FE8FD9D00F916A4 /* CSTermsConditionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 782B15DA1FE8FD9D00F916A4 /* CSTermsConditionsViewController.xib */; };
 		782B15DE1FE8FECE00F916A4 /* arrow_right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 782B15DD1FE8FECE00F916A4 /* arrow_right.jpg */; };
 		782B15E01FE9002300F916A4 /* frame_cute.png in Resources */ = {isa = PBXBuildFile; fileRef = 782B15DF1FE9002300F916A4 /* frame_cute.png */; };
+		7843CAA91FF379EA000F9036 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7843CAA81FF379EA000F9036 /* AddressBook.framework */; };
+		7843CAAB1FF379EE000F9036 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7843CAAA1FF379EE000F9036 /* AddressBookUI.framework */; };
+		7843CAAD1FF37AEE000F9036 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7843CAAC1FF37AEE000F9036 /* Contacts.framework */; };
+		7843CAB01FF37EED000F9036 /* CSContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7843CAAF1FF37EED000F9036 /* CSContactModel.m */; };
+		7843CABE1FF385B2000F9036 /* 10_en.png in Resources */ = {isa = PBXBuildFile; fileRef = 7843CAB21FF385B2000F9036 /* 10_en.png */; };
+		7843CABF1FF385B2000F9036 /* 5_en.png in Resources */ = {isa = PBXBuildFile; fileRef = 7843CAB31FF385B2000F9036 /* 5_en.png */; };
+		7843CAC01FF385B2000F9036 /* 12_en.png in Resources */ = {isa = PBXBuildFile; fileRef = 7843CAB41FF385B2000F9036 /* 12_en.png */; };
+		7843CAC11FF385B2000F9036 /* 3_en.png in Resources */ = {isa = PBXBuildFile; fileRef = 7843CAB51FF385B2000F9036 /* 3_en.png */; };
+		7843CAC21FF385B2000F9036 /* 14_en.png in Resources */ = {isa = PBXBuildFile; fileRef = 7843CAB61FF385B2000F9036 /* 14_en.png */; };
+		7843CAC31FF385B2000F9036 /* 1_en.png in Resources */ = {isa = PBXBuildFile; fileRef = 7843CAB71FF385B2000F9036 /* 1_en.png */; };
+		7843CAC41FF385B2000F9036 /* 4_en.png in Resources */ = {isa = PBXBuildFile; fileRef = 7843CAB81FF385B2000F9036 /* 4_en.png */; };
+		7843CAC51FF385B2000F9036 /* 8_en.png in Resources */ = {isa = PBXBuildFile; fileRef = 7843CAB91FF385B2000F9036 /* 8_en.png */; };
+		7843CAC61FF385B2000F9036 /* 11_en.png in Resources */ = {isa = PBXBuildFile; fileRef = 7843CABA1FF385B2000F9036 /* 11_en.png */; };
+		7843CAC71FF385B2000F9036 /* 13_en.png in Resources */ = {isa = PBXBuildFile; fileRef = 7843CABB1FF385B2000F9036 /* 13_en.png */; };
+		7843CAC81FF385B2000F9036 /* 2_en.png in Resources */ = {isa = PBXBuildFile; fileRef = 7843CABC1FF385B2000F9036 /* 2_en.png */; };
+		7843CAC91FF385B2000F9036 /* 15_en.png in Resources */ = {isa = PBXBuildFile; fileRef = 7843CABD1FF385B2000F9036 /* 15_en.png */; };
+		7843CACD1FF38C00000F9036 /* CSCardCheckOutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7843CACC1FF38C00000F9036 /* CSCardCheckOutTableViewController.m */; };
+		7843CAD01FF39807000F9036 /* deleteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7843CACF1FF39807000F9036 /* deleteButton.png */; };
 		785152721FE919520015DA91 /* CSGiftHoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785152701FE919520015DA91 /* CSGiftHoldViewController.m */; };
 		785152731FE919520015DA91 /* CSGiftHoldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785152711FE919520015DA91 /* CSGiftHoldViewController.xib */; };
 		785152761FE9FA410015DA91 /* CSCardSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785152751FE9FA410015DA91 /* CSCardSelectTableViewController.m */; };
@@ -141,6 +159,26 @@
 		782B15DA1FE8FD9D00F916A4 /* CSTermsConditionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSTermsConditionsViewController.xib; sourceTree = "<group>"; };
 		782B15DD1FE8FECE00F916A4 /* arrow_right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arrow_right.jpg; sourceTree = "<group>"; };
 		782B15DF1FE9002300F916A4 /* frame_cute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_cute.png; sourceTree = "<group>"; };
+		7843CAA81FF379EA000F9036 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		7843CAAA1FF379EE000F9036 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		7843CAAC1FF37AEE000F9036 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		7843CAAE1FF37EED000F9036 /* CSContactModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSContactModel.h; sourceTree = "<group>"; };
+		7843CAAF1FF37EED000F9036 /* CSContactModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSContactModel.m; sourceTree = "<group>"; };
+		7843CAB21FF385B2000F9036 /* 10_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10_en.png; sourceTree = "<group>"; };
+		7843CAB31FF385B2000F9036 /* 5_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5_en.png; sourceTree = "<group>"; };
+		7843CAB41FF385B2000F9036 /* 12_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12_en.png; sourceTree = "<group>"; };
+		7843CAB51FF385B2000F9036 /* 3_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_en.png; sourceTree = "<group>"; };
+		7843CAB61FF385B2000F9036 /* 14_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14_en.png; sourceTree = "<group>"; };
+		7843CAB71FF385B2000F9036 /* 1_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_en.png; sourceTree = "<group>"; };
+		7843CAB81FF385B2000F9036 /* 4_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4_en.png; sourceTree = "<group>"; };
+		7843CAB91FF385B2000F9036 /* 8_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8_en.png; sourceTree = "<group>"; };
+		7843CABA1FF385B2000F9036 /* 11_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11_en.png; sourceTree = "<group>"; };
+		7843CABB1FF385B2000F9036 /* 13_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13_en.png; sourceTree = "<group>"; };
+		7843CABC1FF385B2000F9036 /* 2_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_en.png; sourceTree = "<group>"; };
+		7843CABD1FF385B2000F9036 /* 15_en.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15_en.png; sourceTree = "<group>"; };
+		7843CACB1FF38C00000F9036 /* CSCardCheckOutTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSCardCheckOutTableViewController.h; sourceTree = "<group>"; };
+		7843CACC1FF38C00000F9036 /* CSCardCheckOutTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSCardCheckOutTableViewController.m; sourceTree = "<group>"; };
+		7843CACF1FF39807000F9036 /* deleteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteButton.png; sourceTree = "<group>"; };
 		7851526F1FE919520015DA91 /* CSGiftHoldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSGiftHoldViewController.h; sourceTree = "<group>"; };
 		785152701FE919520015DA91 /* CSGiftHoldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSGiftHoldViewController.m; sourceTree = "<group>"; };
 		785152711FE919520015DA91 /* CSGiftHoldViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSGiftHoldViewController.xib; sourceTree = "<group>"; };
@@ -186,6 +224,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7843CAAD1FF37AEE000F9036 /* Contacts.framework in Frameworks */,
+				7843CAAB1FF379EE000F9036 /* AddressBookUI.framework in Frameworks */,
+				7843CAA91FF379EA000F9036 /* AddressBook.framework in Frameworks */,
 				825E4157E929CFFE03E0771A /* libPods-CSimXmas.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +266,9 @@
 		5E9F3DF3CA548C093A0DD863 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7843CAAC1FF37AEE000F9036 /* Contacts.framework */,
+				7843CAAA1FF379EE000F9036 /* AddressBookUI.framework */,
+				7843CAA81FF379EA000F9036 /* AddressBook.framework */,
 				D7349BA728310FF9AD15C8CD /* libPods-CSimXmas.a */,
 				F10FD4668B244D42031A7416 /* libPods-CSimXmasTests.a */,
 				F075315D9FFA55C880317353 /* libPods-CSimXmasUITests.a */,
@@ -290,6 +334,8 @@
 			isa = PBXGroup;
 			children = (
 				785152861FEA3E720015DA91 /* Login */,
+				789AAA811FF33FE200A5C3D3 /* GiftSender */,
+				789AAA7D1FF33FD800A5C3D3 /* GiftRedeem */,
 				785152881FEA3EC80015DA91 /* Gift */,
 				782B15981FE7C17D00F916A4 /* Resource */,
 				782B15BE1FE8A9EA00F916A4 /* Expand */,
@@ -309,6 +355,8 @@
 		782B15991FE7C17D00F916A4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				7843CACE1FF397FE000F9036 /* Buttons */,
+				7843CAB11FF385B2000F9036 /* ClubSIM_Cards */,
 				785152A31FEA652F0015DA91 /* Button-Blank-Gray-icon.png */,
 				785152A51FEA65340015DA91 /* Button-Blank-Yellow-icon.png */,
 				785152A11FEA5EEF0015DA91 /* colorful_background.jpg */,
@@ -340,9 +388,6 @@
 				782B15D31FE8EE2900F916A4 /* CSNotificationCell.h */,
 				782B15D41FE8EE2900F916A4 /* CSNotificationCell.m */,
 				782B15D51FE8EE2900F916A4 /* CSNotificationCell.xib */,
-				785152771FE9FAE60015DA91 /* CSCardSelectContactCell.h */,
-				785152781FE9FAE60015DA91 /* CSCardSelectContactCell.m */,
-				785152791FE9FAE60015DA91 /* CSCardSelectContactCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -361,9 +406,6 @@
 		782B15AD1FE7C97700F916A4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				785152831FEA09230015DA91 /* CSGiftHomeViewController.h */,
-				785152821FEA09230015DA91 /* CSGiftHomeViewController.m */,
-				785152811FEA09220015DA91 /* CSGiftHomeViewController.xib */,
 				782B15B61FE7CE4800F916A4 /* CSCompleteViewController.h */,
 				782B15B71FE7CE4800F916A4 /* CSCompleteViewController.m */,
 				782B15921FE7BF0900F916A4 /* CSCompleteViewController.xib */,
@@ -373,13 +415,9 @@
 				7851526F1FE919520015DA91 /* CSGiftHoldViewController.h */,
 				785152701FE919520015DA91 /* CSGiftHoldViewController.m */,
 				785152711FE919520015DA91 /* CSGiftHoldViewController.xib */,
-				782B15D01FE8EE0600F916A4 /* CSNotificationTableViewController.h */,
-				782B15D11FE8EE0600F916A4 /* CSNotificationTableViewController.m */,
 				782B15D81FE8FD9D00F916A4 /* CSTermsConditionsViewController.h */,
 				782B15D91FE8FD9D00F916A4 /* CSTermsConditionsViewController.m */,
 				782B15DA1FE8FD9D00F916A4 /* CSTermsConditionsViewController.xib */,
-				785152741FE9FA410015DA91 /* CSCardSelectTableViewController.h */,
-				785152751FE9FA410015DA91 /* CSCardSelectTableViewController.m */,
 				7851527C1FEA08C50015DA91 /* CSFinalCompleteViewController.h */,
 				7851527D1FEA08C50015DA91 /* CSFinalCompleteViewController.m */,
 				7851527E1FEA08C50015DA91 /* CSFinalCompleteViewController.xib */,
@@ -442,6 +480,33 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7843CAB11FF385B2000F9036 /* ClubSIM_Cards */ = {
+			isa = PBXGroup;
+			children = (
+				7843CAB21FF385B2000F9036 /* 10_en.png */,
+				7843CAB31FF385B2000F9036 /* 5_en.png */,
+				7843CAB41FF385B2000F9036 /* 12_en.png */,
+				7843CAB51FF385B2000F9036 /* 3_en.png */,
+				7843CAB61FF385B2000F9036 /* 14_en.png */,
+				7843CAB71FF385B2000F9036 /* 1_en.png */,
+				7843CAB81FF385B2000F9036 /* 4_en.png */,
+				7843CAB91FF385B2000F9036 /* 8_en.png */,
+				7843CABA1FF385B2000F9036 /* 11_en.png */,
+				7843CABB1FF385B2000F9036 /* 13_en.png */,
+				7843CABC1FF385B2000F9036 /* 2_en.png */,
+				7843CABD1FF385B2000F9036 /* 15_en.png */,
+			);
+			path = ClubSIM_Cards;
+			sourceTree = "<group>";
+		};
+		7843CACE1FF397FE000F9036 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				7843CACF1FF39807000F9036 /* deleteButton.png */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		785152861FEA3E720015DA91 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -500,6 +565,82 @@
 				785152AB1FEB5EB10015DA91 /* iCarousel.m */,
 			);
 			path = 3rd;
+			sourceTree = "<group>";
+		};
+		789AAA7D1FF33FD800A5C3D3 /* GiftRedeem */ = {
+			isa = PBXGroup;
+			children = (
+				789AAA7E1FF33FD800A5C3D3 /* Controller */,
+				789AAA7F1FF33FD800A5C3D3 /* Model */,
+				789AAA801FF33FD800A5C3D3 /* View */,
+			);
+			path = GiftRedeem;
+			sourceTree = "<group>";
+		};
+		789AAA7E1FF33FD800A5C3D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		789AAA7F1FF33FD800A5C3D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		789AAA801FF33FD800A5C3D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		789AAA811FF33FE200A5C3D3 /* GiftSender */ = {
+			isa = PBXGroup;
+			children = (
+				789AAA821FF33FE200A5C3D3 /* Controller */,
+				789AAA831FF33FE200A5C3D3 /* Model */,
+				789AAA841FF33FE200A5C3D3 /* View */,
+			);
+			path = GiftSender;
+			sourceTree = "<group>";
+		};
+		789AAA821FF33FE200A5C3D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				785152831FEA09230015DA91 /* CSGiftHomeViewController.h */,
+				785152821FEA09230015DA91 /* CSGiftHomeViewController.m */,
+				785152811FEA09220015DA91 /* CSGiftHomeViewController.xib */,
+				785152741FE9FA410015DA91 /* CSCardSelectTableViewController.h */,
+				785152751FE9FA410015DA91 /* CSCardSelectTableViewController.m */,
+				7843CACB1FF38C00000F9036 /* CSCardCheckOutTableViewController.h */,
+				7843CACC1FF38C00000F9036 /* CSCardCheckOutTableViewController.m */,
+				782B15D01FE8EE0600F916A4 /* CSNotificationTableViewController.h */,
+				782B15D11FE8EE0600F916A4 /* CSNotificationTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		789AAA831FF33FE200A5C3D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7843CAAE1FF37EED000F9036 /* CSContactModel.h */,
+				7843CAAF1FF37EED000F9036 /* CSContactModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		789AAA841FF33FE200A5C3D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				785152771FE9FAE60015DA91 /* CSCardSelectContactCell.h */,
+				785152781FE9FAE60015DA91 /* CSCardSelectContactCell.m */,
+				785152791FE9FAE60015DA91 /* CSCardSelectContactCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -618,31 +759,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7843CAC11FF385B2000F9036 /* 3_en.png in Resources */,
 				782B159F1FE7C53A00F916A4 /* hmv.png in Resources */,
 				782B15A31FE7C54800F916A4 /* iCremeria.png in Resources */,
 				782B15BD1FE89CAE00F916A4 /* CSGiftSelectViewController.xib in Resources */,
 				785152A01FEA5BA70015DA91 /* button_background.png in Resources */,
 				782B15631FE7BDFD00F916A4 /* LaunchScreen.storyboard in Resources */,
 				7851529E1FEA44FE0015DA91 /* cs_logo.png in Resources */,
+				7843CAC41FF385B2000F9036 /* 4_en.png in Resources */,
+				7843CABE1FF385B2000F9036 /* 10_en.png in Resources */,
+				7843CAC51FF385B2000F9036 /* 8_en.png in Resources */,
 				785152A41FEA652F0015DA91 /* Button-Blank-Gray-icon.png in Resources */,
 				782B15A51FE7C54C00F916A4 /* Limited-christmas.png in Resources */,
+				7843CAC01FF385B2000F9036 /* 12_en.png in Resources */,
 				782B15601FE7BDFD00F916A4 /* Assets.xcassets in Resources */,
 				785152801FEA08C50015DA91 /* CSFinalCompleteViewController.xib in Resources */,
 				782B15DE1FE8FECE00F916A4 /* arrow_right.jpg in Resources */,
+				7843CABF1FF385B2000F9036 /* 5_en.png in Resources */,
 				7851527B1FE9FAE60015DA91 /* CSCardSelectContactCell.xib in Resources */,
 				782B15CF1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.xib in Resources */,
 				782B155E1FE7BDFD00F916A4 /* Main.storyboard in Resources */,
+				7843CAC61FF385B2000F9036 /* 11_en.png in Resources */,
 				785152731FE919520015DA91 /* CSGiftHoldViewController.xib in Resources */,
 				7851528F1FEA40650015DA91 /* christmas_background.jpg in Resources */,
 				782B15E01FE9002300F916A4 /* frame_cute.png in Resources */,
+				7843CAC71FF385B2000F9036 /* 13_en.png in Resources */,
 				782B15B21FE7CA7700F916A4 /* CSProgressBar.xib in Resources */,
 				785152841FEA09230015DA91 /* CSGiftHomeViewController.xib in Resources */,
+				7843CAC81FF385B2000F9036 /* 2_en.png in Resources */,
 				785152A61FEA65340015DA91 /* Button-Blank-Yellow-icon.png in Resources */,
+				7843CAC21FF385B2000F9036 /* 14_en.png in Resources */,
 				782B159D1FE7C38100F916A4 /* redButtonBackground.png in Resources */,
 				782B15D71FE8EE2900F916A4 /* CSNotificationCell.xib in Resources */,
 				782B159B1FE7C1CB00F916A4 /* pexels-photo-370799.jpeg in Resources */,
+				7843CAC31FF385B2000F9036 /* 1_en.png in Resources */,
 				7851528D1FEA3F410015DA91 /* CSLoginViewController.xib in Resources */,
+				7843CAD01FF39807000F9036 /* deleteButton.png in Resources */,
 				782B15941FE7BF0900F916A4 /* CSCompleteViewController.xib in Resources */,
+				7843CAC91FF385B2000F9036 /* 15_en.png in Resources */,
 				785152A21FEA5EEF0015DA91 /* colorful_background.jpg in Resources */,
 				782B15A11FE7C53F00F916A4 /* HaagenDazs.png in Resources */,
 				782B15DC1FE8FD9D00F916A4 /* CSTermsConditionsViewController.xib in Resources */,
@@ -825,6 +979,7 @@
 				782B15D61FE8EE2900F916A4 /* CSNotificationCell.m in Sources */,
 				782B15B51FE7CE0300F916A4 /* CSGiftModel.m in Sources */,
 				782B15CA1FE8CABC00F916A4 /* CSConsts.m in Sources */,
+				7843CAB01FF37EED000F9036 /* CSContactModel.m in Sources */,
 				785152761FE9FA410015DA91 /* CSCardSelectTableViewController.m in Sources */,
 				785152851FEA09230015DA91 /* CSGiftHomeViewController.m in Sources */,
 				7851527F1FEA08C50015DA91 /* CSFinalCompleteViewController.m in Sources */,
@@ -833,6 +988,7 @@
 				782B15D21FE8EE0600F916A4 /* CSNotificationTableViewController.m in Sources */,
 				782B15DB1FE8FD9D00F916A4 /* CSTermsConditionsViewController.m in Sources */,
 				7851529A1FEA432D0015DA91 /* Reachability.m in Sources */,
+				7843CACD1FF38C00000F9036 /* CSCardCheckOutTableViewController.m in Sources */,
 				782B155B1FE7BDFD00F916A4 /* ViewController.m in Sources */,
 				782B15B81FE7CE4800F916A4 /* CSCompleteViewController.m in Sources */,
 				785152721FE919520015DA91 /* CSGiftHoldViewController.m in Sources */,

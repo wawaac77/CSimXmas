@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CSContactModel.h"
 
 @interface CSCardSelectContactCell : UITableViewCell
+
+@property (strong, nonatomic) CSContactModel *thisContact;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *numLabel;
 
 @end

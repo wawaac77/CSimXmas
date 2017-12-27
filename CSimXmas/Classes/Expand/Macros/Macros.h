@@ -33,5 +33,10 @@
 #define LAB_API @"https://uat.clubsim.com.hk/clsmw/api/"
 #define PRD_API @"https://www.theclub.com.hk/clsmw/api/"
 
+/*****************  Color  ******************/
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RGB(r,g,b) RGBA(r,g,b,1.0f)
+#define XMasRedColor RGB(213,49,53)
+
 
 #endif /* Macros_h */

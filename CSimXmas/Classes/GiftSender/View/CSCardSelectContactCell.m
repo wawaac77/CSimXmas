@@ -21,4 +21,10 @@
     // Configure the view for the selected state
 }
 
+- (void)setThisContact:(CSContactModel *)thisContact {
+    _thisContact = thisContact;
+    _numLabel.text = thisContact.contactNum;
+    _nameLabel.text = thisContact.contactName;
+}
+
 @end
