@@ -10,6 +10,7 @@ target 'CSimXmas' do
     pod 'MJRefresh'
     pod 'Masonry'
     pod 'AFNetworking', '~> 3.0'
+    pod 'SDWebImage', '~> 4.0'
 
   target 'CSimXmasTests' do
     inherit! :search_paths

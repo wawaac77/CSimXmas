@@ -32,6 +32,8 @@
 /*****************  API  ******************/
 #define LAB_API @"https://uat.clubsim.com.hk/clsmw/api/"
 #define PRD_API @"https://www.theclub.com.hk/clsmw/api/"
+#define XMAS_API @"https://uat.clubsim.com.hk/clsmw/xmasapi/sender/"
+#define Asset_URL @"https://uat.clubsim.com.hk/xmas/src/style/assets/"
 
 /*****************  Color  ******************/
 #define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]

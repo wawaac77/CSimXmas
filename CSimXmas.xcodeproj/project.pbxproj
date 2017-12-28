@@ -58,6 +58,7 @@
 		7843CAC91FF385B2000F9036 /* 15_en.png in Resources */ = {isa = PBXBuildFile; fileRef = 7843CABD1FF385B2000F9036 /* 15_en.png */; };
 		7843CACD1FF38C00000F9036 /* CSCardCheckOutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7843CACC1FF38C00000F9036 /* CSCardCheckOutTableViewController.m */; };
 		7843CAD01FF39807000F9036 /* deleteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7843CACF1FF39807000F9036 /* deleteButton.png */; };
+		7843CAD41FF48AB9000F9036 /* CSCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7843CAD31FF48AB9000F9036 /* CSCardModel.m */; };
 		785152721FE919520015DA91 /* CSGiftHoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785152701FE919520015DA91 /* CSGiftHoldViewController.m */; };
 		785152731FE919520015DA91 /* CSGiftHoldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785152711FE919520015DA91 /* CSGiftHoldViewController.xib */; };
 		785152761FE9FA410015DA91 /* CSCardSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785152751FE9FA410015DA91 /* CSCardSelectTableViewController.m */; };
@@ -179,6 +180,8 @@
 		7843CACB1FF38C00000F9036 /* CSCardCheckOutTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSCardCheckOutTableViewController.h; sourceTree = "<group>"; };
 		7843CACC1FF38C00000F9036 /* CSCardCheckOutTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSCardCheckOutTableViewController.m; sourceTree = "<group>"; };
 		7843CACF1FF39807000F9036 /* deleteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteButton.png; sourceTree = "<group>"; };
+		7843CAD21FF48AB9000F9036 /* CSCardModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSCardModel.h; sourceTree = "<group>"; };
+		7843CAD31FF48AB9000F9036 /* CSCardModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSCardModel.m; sourceTree = "<group>"; };
 		7851526F1FE919520015DA91 /* CSGiftHoldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSGiftHoldViewController.h; sourceTree = "<group>"; };
 		785152701FE919520015DA91 /* CSGiftHoldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSGiftHoldViewController.m; sourceTree = "<group>"; };
 		785152711FE919520015DA91 /* CSGiftHoldViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSGiftHoldViewController.xib; sourceTree = "<group>"; };
@@ -378,10 +381,6 @@
 		782B15AB1FE7C92F00F916A4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				785152A81FEB5E9C0015DA91 /* CarouselView */,
-				782B15AE1FE7C9C100F916A4 /* CSProgressBar.h */,
-				782B15AF1FE7C9C100F916A4 /* CSProgressBar.m */,
-				782B15B11FE7CA7700F916A4 /* CSProgressBar.xib */,
 				782B15CB1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.h */,
 				782B15CC1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.m */,
 				782B15CD1FE8D3DB00F916A4 /* CSGiftCollectionViewCell.xib */,
@@ -406,6 +405,8 @@
 		782B15AD1FE7C97700F916A4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				782B15D01FE8EE0600F916A4 /* CSNotificationTableViewController.h */,
+				782B15D11FE8EE0600F916A4 /* CSNotificationTableViewController.m */,
 				782B15B61FE7CE4800F916A4 /* CSCompleteViewController.h */,
 				782B15B71FE7CE4800F916A4 /* CSCompleteViewController.m */,
 				782B15921FE7BF0900F916A4 /* CSCompleteViewController.xib */,
@@ -618,8 +619,6 @@
 				785152751FE9FA410015DA91 /* CSCardSelectTableViewController.m */,
 				7843CACB1FF38C00000F9036 /* CSCardCheckOutTableViewController.h */,
 				7843CACC1FF38C00000F9036 /* CSCardCheckOutTableViewController.m */,
-				782B15D01FE8EE0600F916A4 /* CSNotificationTableViewController.h */,
-				782B15D11FE8EE0600F916A4 /* CSNotificationTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -629,6 +628,8 @@
 			children = (
 				7843CAAE1FF37EED000F9036 /* CSContactModel.h */,
 				7843CAAF1FF37EED000F9036 /* CSContactModel.m */,
+				7843CAD21FF48AB9000F9036 /* CSCardModel.h */,
+				7843CAD31FF48AB9000F9036 /* CSCardModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -636,9 +637,13 @@
 		789AAA841FF33FE200A5C3D3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				785152A81FEB5E9C0015DA91 /* CarouselView */,
 				785152771FE9FAE60015DA91 /* CSCardSelectContactCell.h */,
 				785152781FE9FAE60015DA91 /* CSCardSelectContactCell.m */,
 				785152791FE9FAE60015DA91 /* CSCardSelectContactCell.xib */,
+				782B15AE1FE7C9C100F916A4 /* CSProgressBar.h */,
+				782B15AF1FE7C9C100F916A4 /* CSProgressBar.m */,
+				782B15B11FE7CA7700F916A4 /* CSProgressBar.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -980,6 +985,7 @@
 				782B15B51FE7CE0300F916A4 /* CSGiftModel.m in Sources */,
 				782B15CA1FE8CABC00F916A4 /* CSConsts.m in Sources */,
 				7843CAB01FF37EED000F9036 /* CSContactModel.m in Sources */,
+				7843CAD41FF48AB9000F9036 /* CSCardModel.m in Sources */,
 				785152761FE9FA410015DA91 /* CSCardSelectTableViewController.m in Sources */,
 				785152851FEA09230015DA91 /* CSGiftHomeViewController.m in Sources */,
 				7851527F1FEA08C50015DA91 /* CSFinalCompleteViewController.m in Sources */,

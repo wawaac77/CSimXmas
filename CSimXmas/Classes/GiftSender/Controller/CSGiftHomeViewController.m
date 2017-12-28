@@ -13,6 +13,8 @@
 #import "CSTermsConditionsViewController.h"
 #import "CSCardSelectTableViewController.h"
 
+#import "CSCardModel.h"
+
 #import <Masonry.h>
 
 @interface CSGiftHomeViewController () <UIScrollViewDelegate>
@@ -22,6 +24,7 @@
 @property (strong, nonatomic) UILabel *bigTitleLabel;
 @property (strong, nonatomic) UILabel *detailLabel;
 @property (strong, nonatomic) UIButton *continueButton;
+@property (strong, nonatomic) NSMutableArray<CSCardModel *> *cardList;
 
 @end
 
@@ -49,6 +52,7 @@
     [super viewDidLoad];
     self.navigationItem.title = @"Club SIM";
     [self setUpInit];
+    [self getApiData];
     
 }
 
@@ -111,6 +115,29 @@
     [imageButton addTarget:self action:@selector(imageButtonClicked) forControlEvents:UIControlEventTouchUpInside];
 }
 
+#pragma mark - API
+- (void)getApiData {
+    NSDictionary *dict = @{
+                           @"sid" : @"eyJraWQiOiI4MDU4NDc4MDUxIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJleHAiOjE1MjE2MjYyNTl9.XGykBaQdoZ_0QxB6c6K6qj5h0FX0-E0GTmn-J72_Y8Y",
+                           };
+    NSString *thisAPI = [NSString stringWithFormat:@"%@getCardList", XMAS_API];
+    
+    [RequestTool requestWithType:GET URL:thisAPI parameter:dict successComplete:^(id responseObject) {
+        NSLog(@"response status %@", [responseObject valueForKey:@"status"]);
+        NSLog(@"response status cardList %@", [responseObject valueForKey:@"cardList"]);
+        self.cardList = [CSCardModel mj_objectArrayWithKeyValuesArray:responseObject[@"cardList"]];
+        NSLog(@"self.cardlist[0].id %@", self.cardList[0].cardId);
+        NSString *newURL = [NSString stringWithFormat:@"%@card/%@_en.png", Asset_URL, self.cardList[9].cardId];
+        [self.imageView sd_setImageWithURL:[NSURL URLWithString:newURL]];
+        
+    } failureComplete:^(NSError *error) {
+        
+        NSLog(@"getCardList failed");
+        
+    }];
+}
+
+#pragma mark - buttonClicked
 - (void)continueButtonClicked {
     CSGiftHoldViewController *giftHoldVC = [[CSGiftHoldViewController alloc] initWithNibName:@"CSGiftHoldViewController" bundle:nil];
     [self.navigationController pushViewController:giftHoldVC animated:YES];
